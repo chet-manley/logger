@@ -1,0 +1,27 @@
+{
+  "name": "logger",
+  "version": "0.0.0",
+  "description": "A currently incomplete (failing) logging module for NodeJS",
+  "main": "index",
+  "scripts": {
+    "debug": "node --no-lazy --inspect-brk index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chet-manley/logger.git"
+  },
+  "author": "Chet Manley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chet-manley/logger/issues"
+  },
+  "homepage": "https://github.com/chet-manley/logger#readme",
+  "devDependencies": {
+    "dotenv": "^6.1.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-jest": "^21.26.2",
+    "jest": "^23.6.0"
+  }
+}
